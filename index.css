@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px;
+    line-height: 1.5em; /*space betweeen lines*/
+    /* font: 15px/ 1.5 Arial, Helvetica, sans-serif;  */
+    margin: 0;
+    padding: 0; 
+    background-color: #f4f4f4; /*light gray hexi decimal number*/ 
+
+}
+
+/*global*/ 
+.container {
+    width: 80%; /*to keep it responsive*/
+    margin: auto; 
+    overflow: hidden; 
+}
+
+/*header*/
+header {
+    background: #35424a; /* dark grey*/
+    color: #ffffff; /*white*/
+    padding-top: 30px; 
+    min-height: 70px; 
+    border-bottom: #e8491d 3px solid; /*orangy color*/
+}
+
+header a {
+    color: #ffffff; /*all links white because right now ugly*/
+    text-decoration: none; /*no underline*/
+    text-transform: uppercase; 
+}
+
+header ul {
+    margin: 0; 
+    padding: 0; 
+
+}
+
+header li {
+    float:left; /*float and display make it horizontal*/
+    display: inline; /*eliminates dots*/
+    padding: 0 20px 0 20px; /*top right bottom left*/
+}
+
