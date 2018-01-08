@@ -24,6 +24,15 @@ ul {
 
 }
 
+.button_1{
+    height: 38px; 
+    background: #e8491d; 
+    border: 0; /*takes out natural borders*/
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
 .dark{
     padding:15px;
     background:#35424a;
@@ -89,14 +98,14 @@ header a:hover {
 }
 
 #showcase2 {
-    margin-top: 20px;
     min-height:200px;
     text-align: center;
-    background-color: #ffffff;
-    color: rgb(81, 75, 75);
+    /* background-color: #ffffff;
+    color: rgb(81, 75, 75); */
+    margin-bottom: 100px;
 }
 
-#showcase h1 {
+#showcase h1, #showcase2 h1 {
     margin-top: 100px; 
     font-size: 55px; 
     margin-bottom: 10px;
@@ -130,11 +139,15 @@ header a:hover {
 
   }
 
-  #newsletter button {
-
+  #connect {
+      color: #e8491d; 
   }
 
   /*Boxes */
+
+  #boxes {
+      margin-top: 20px;
+  }
   #boxes .box{
       float: left;
       text-align: center;
@@ -143,7 +156,7 @@ header a:hover {
   }
 
   #boxes .box img{
-      width: 300px;
+      width: 90px;
   }
 
   footer {
